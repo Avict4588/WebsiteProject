@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Ria's Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #574a4b;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #990606; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #5f31aa; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #f50c0c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default" style="background-color: black;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      
+        <a class="navbar-brand" href="index.html"><span class= "glyphicon glyphicon-home"></span>RickRoll </a>
+        
+  </div>
+
+  
+  <ul class="nav navbar-nav">
+              <li class="dropdown">
+                  <a class="dropdown-toggle " type="button" data-toggle="dropdown">
+                      Galleries <span class="caret"></span>
+                  </a>
+              <ul class="dropdown-menu">
+              <li ><a href="gallery.html">Galleries</a></li>
+              <li class="divider"></li>
+                  <li><a href="#"> Sexy Plants  </a></li>
+                  <li><a href="#">  Doodles </a></li>
+                  <li><a href="xrated.html">  XXX </a></li>
+               </ul>
+               <li class="dropdown">
+                  <a class="dropdown-toggle" type="button" data-toggle="dropdown">
+                      Fun <span class="caret"></span>
+                  </a>
+              <ul class="dropdown-menu">
+                  <li ><a href="simp.html">Simping</a></li>
+                  <li><a href="#">  Webnovel </a></li>
+                  <li><a href="#">  Animes </a></li>
+              </ul>
+              <li><a href="about.html">  About Me </a></li>
+        
+  </ul>
+  <ul class="nav navbar-nav" style="float:right">
+      <li ><a href="contact.html"><span class="glyphicon glyphicon-info-sign"></span>Contact Me!</a></li>
+  </ul>
+    </div>
+  </nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="https://cdn.pixabay.com/photo/2023/02/10/14/25/sheep-7780985_1280.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm Ria</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>Im an artist. I love to try new types of art. </p>
+  <a href="gallery.html" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Check It Out!
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div id="services" class="container-fluid text-center">
+  <h2>Features</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-phone-alt"></span>
+      <h4>Contact</h4>
+      <p>Contact info</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>LOVE</h4>
+      <p>Characters I love</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>Work</h4>
+      <p>What Im Working on</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-calendar"></span>
+      <h4>Events</h4>
+      <p>Important Events</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-picture"></span>
+      <h4>Art</h4>
+      <p>Art I make</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-pushpin"></span>
+      <h4 style="color:#303030;">Recomendations</h4>
+      <p>Things I recomend(art, food, books)</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you Never.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> USA </p>
+      <p><span class="glyphicon glyphicon-phone"></span> *Phone Number*</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
