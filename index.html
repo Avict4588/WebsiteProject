@@ -99,6 +99,7 @@
   <h3 class="margin">Who Am I?</h3>
   <img src="https://cdn.pixabay.com/photo/2023/02/10/14/25/sheep-7780985_1280.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
   <h3>I'm Ria</h3>
+  <p id = welcome></p>
 </div>
 
 <!-- Second Container -->
@@ -183,6 +184,19 @@
 <footer class="container-fluid bg-4 text-center">
   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
 </footer>
-
+<script>
+   if(localStorage.getItem("user"))
+            {
+                //if true, welcome the user back to the site
+                $("#welcome").text("Welcome back, " + localStorage.user);
+            }
+            else
+            {
+                //otherwise, ask the user their name, store their name, and welcome them!
+                var name = prompt("What is your name?");
+                localStorage.setItem("user", name);
+                $("#welcome").text("Welcome to my site, " + name);
+            }
+</script>
 </body>
 </html>
